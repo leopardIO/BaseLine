@@ -1,0 +1,7 @@
+Log file created at: 2015/10/27 17:57:48
+Running on machine: iZ25196x73wZ
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1027 17:57:48.269019 16316 ClientSession.cpp:72] ClientSession :: Header shows : proto length is too big... : 
+E1027 17:57:58.278517 16316 ClientSession.cpp:195] ClientSession :: write to file error
+E1027 17:57:58.279266 16316 ClientSession.cpp:195] ClientSession :: write to file error
+E1027 17:57:58.279789 16316 ClientSession.cpp:195] ClientSession :: write to file error

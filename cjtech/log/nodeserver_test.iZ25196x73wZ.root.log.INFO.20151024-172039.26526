@@ -1,0 +1,156 @@
+Log file created at: 2015/10/24 17:20:39
+Running on machine: iZ25196x73wZ
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1024 17:20:39.552300 26526 Main.cpp:29] The Log Path is project_root/log
+I1024 17:20:39.563530 26526 RootSession.cpp:36] RootSession :: Root Session is Runing Now
+I1024 17:20:39.583928 26526 DBManager.cpp:54] DBManager :: DB get success !
+I1024 17:20:41.932927 26527 RootSession.cpp:46] RootSession :: New connection from Root 127.0.0.1
+I1024 17:20:41.932987 26527 ClientSession.cpp:34] ClientSession :: Started 
+I1024 17:20:41.933001 26527 ClientSession.cpp:35] ClientSession :: begin read header ... 
+I1024 17:20:41.933022 26527 RootSession.cpp:36] RootSession :: Root Session is Runing Now
+I1024 17:20:53.040945 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:53.040993 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:53.041039 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:53.041051 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:53.041085 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:53.041297 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1029003587
+I1024 17:20:53.494794 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:53.494905 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:53.495107 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:53.495475 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:53.495771 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:53.495843 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:53.495925 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:53.495987 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:53.496057 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:53.496116 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:53.496176 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:53.496335 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1029003587
+I1024 17:20:53.918155 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:53.918270 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:53.918488 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:53.918858 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:53.919123 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:53.919190 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:53.919260 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:53.919319 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:53.919380 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:53.919437 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:53.919498 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:53.919654 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1029003587
+I1024 17:20:54.343588 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:54.343700 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:54.343914 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:54.344298 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:54.344552 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:54.344629 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:54.344730 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:54.344789 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:54.344846 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:54.344933 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:54.344995 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:54.345181 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1796508534
+I1024 17:20:54.783368 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:54.783468 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:54.783684 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:54.784019 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:54.784302 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:54.784378 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:54.784447 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:54.784507 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:54.784585 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:54.784646 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:54.784708 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:54.784874 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1796508534
+I1024 17:20:55.218734 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:55.218834 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:55.219034 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:55.219368 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:55.219614 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:55.219684 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:55.219749 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:55.219806 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:55.219863 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:55.219951 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:55.220019 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:55.220223 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/420392311
+I1024 17:20:55.643592 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:55.643743 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:55.644002 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:55.644345 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:55.644588 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:55.644673 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:55.644737 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:55.644794 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:55.644882 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:55.644942 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:55.645042 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:55.645190 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/420392311
+I1024 17:20:56.065289 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:56.065399 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:56.065644 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:56.066006 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:56.066252 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:56.066324 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:56.066391 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:56.066448 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:56.066507 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:56.066577 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:56.066637 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:56.066839 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1186011659
+I1024 17:20:56.489353 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:56.489461 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:56.489677 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:56.490032 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:56.490273 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:56.490347 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:56.490417 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:56.490475 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:56.490536 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:56.490592 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:56.490653 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:56.490815 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1186011659
+I1024 17:20:56.911696 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:56.911797 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:56.912016 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:56.912348 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:56.912595 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:56.912667 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:56.912729 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:56.912786 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:56.912865 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:56.912924 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:56.912981 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:56.913133 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1186011659
+I1024 17:20:57.341598 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:57.341712 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:57.342141 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:57.342536 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:57.342788 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:57.342854 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:57.342918 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:57.343017 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:57.343086 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:57.343144 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:57.343206 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:57.343389 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1962120671
+I1024 17:20:57.764909 26527 SearchSession.cpp:43] SearchSession :: Match Result : 2.jpg&&-2.2682e-05&&7.94902e-05&&600&&-0.000136977&&600&&400&&-8.89022e-07&&400&&
+I1024 17:20:57.765015 26527 DBManager.cpp:119] DBManager :: find in pic struct :2.jpg
+I1024 17:20:57.765235 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:57.765569 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:57.765813 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:57.765887 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:57.765969 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 22
+I1024 17:20:57.766026 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 
+I1024 17:20:57.766083 26527 ClientSession.cpp:84] ClientSession :: Read proto SUCCESSFUL 
+I1024 17:20:57.766135 26527 ClientSession.cpp:89] ClientSession :: Proto show it is SEARCH_REQUEST 
+I1024 17:20:57.766192 26527 ClientSession.cpp:107] ClientSession :: Proto shows : picture_length : 36124 picture name : test
+I1024 17:20:57.766345 26527 ClientSession.cpp:148] ClientSession :: file path ../picsource/tmp/1962120671
+I1024 17:20:57.769531 26527 SearchSession.cpp:43] SearchSession :: Match Result : 
+I1024 17:20:57.769592 26527 DBManager.cpp:119] DBManager :: find in pic struct :
+I1024 17:20:57.769690 26527 DBManager.cpp:84] DBManager :: begin Query in cache... 
+I1024 17:20:57.770020 26527 SearchSession.cpp:80] SearchSession :: copied result to ClientSession
+I1024 17:20:57.770218 26527 ClientSession.cpp:46] ClientSession :: Send to Root OK!
+I1024 17:20:57.770282 26527 ClientSession.cpp:47] ClientSession :: begin read header again... 
+I1024 17:20:57.770349 26527 ClientSession.cpp:66] ClientSession :: Header shows : proto length : 1443449856
+I1024 17:20:57.770403 26527 ClientSession.cpp:68] ClientSession :: Read proto ing... : 

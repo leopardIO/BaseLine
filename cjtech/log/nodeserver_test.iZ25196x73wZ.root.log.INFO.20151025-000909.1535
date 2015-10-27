@@ -1,0 +1,4 @@
+Log file created at: 2015/10/25 00:09:09
+Running on machine: iZ25196x73wZ
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1025 00:09:09.996398  1535 Main.cpp:29] The Log Path is project_root/log

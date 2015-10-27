@@ -1,0 +1,4 @@
+Log file created at: 2015/10/24 16:53:21
+Running on machine: iZ25196x73wZ
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1024 16:53:21.829674 25872 DBManager.cpp:24] Access denied for user 'root'@'localhost' (using password: YES)
